@@ -5,7 +5,7 @@ var express = require('express'),
 app.use(express.static(__dirname + '/client'));
 
 app.get('/', function(req,res){
-	res.sendFile(__dirname + '/client/views/index.html');
+	res.sendFile(__dirname + '/client/views/home.html');
 });
 
 app.listen(port, function(){
