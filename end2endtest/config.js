@@ -1,3 +1,6 @@
-exports.config={
-	specs:"homepageEnd2EndTest.js"
+exports.config = {
+	specs : ['homePageEnd2EndTest.js'],
+	capabilities : {
+		browserName : 'chrome'
+	}
 }
